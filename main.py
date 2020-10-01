@@ -17,7 +17,7 @@ print(""" Select one of the operations:
 6. Remainders
 7. Floor Division""")
 
-select = int(input('Which operation do you need?1/2/3/4/5/6: '))
+select = int(input('Which operation do you need?1/2/3/4/5/6/7: '))
 
 num1 = int(input('Please enter your first number: '))
 num2 = int(input('Please enter your second number: '))
