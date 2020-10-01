@@ -14,7 +14,8 @@ print(""" Select one of the operations:
 3. multiply
 4. Division
 5. Powers
-6. Remainders""")
+6. Remainders
+7. Floor Division""")
 
 select = int(input('Which operation do you need?1/2/3/4/5/6: '))
 
@@ -33,5 +34,7 @@ elif select == 5:
   print(num1, '^', num2, '=', num1**num2)
 elif select == 6:
   print(num1, 'R', num2, '=',  num1 % num2)
+elif select == 7:
+  print(num1, '//', num2, '=', num1 // num2)
 else:
   print("Invalid input!")
